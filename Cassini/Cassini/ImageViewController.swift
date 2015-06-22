@@ -11,6 +11,7 @@ import UIKit
 class ImageViewController: UIViewController, UIScrollViewDelegate
 {
     //model
+    //model
     var imageURL: NSURL? {
         didSet {
             image = nil
